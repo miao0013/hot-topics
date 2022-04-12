@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cards>
+
+    <card>
+        <img>img/portfolio-1.png</img>
+        <title>Kathmandu, Nepal</title>
+    </card>
+    <card>
+        <img>img/portfolio-2.png</img>
+        <title>Bali, Indonesia</title>
+    </card>
+    <card>
+          <img>img/portfolio-3.png</img>
+        <title>Kuala Lumpur, Malaysia</title>
+    </card>
+    <card>
+          <img>img/portfolio-4.png</img>
+        <title>Lisbon, Portugal</title>
+    </card>
+    <card>
+          <img>img/portfolio-5.png</img>
+        <title>Siem Reap, Myanmar</title>
+    </card>
+    <card>
+          <img>img/portfolio-1.png</img>
+        <title>Ottawa, Canada</title>
+    </card>
+
+</cards>
