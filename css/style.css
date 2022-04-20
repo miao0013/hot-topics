@@ -17,12 +17,14 @@ Google Font Pair : aleo & Roboto
 
 html {
     scroll-behavior: smooth;
-    background-color: white;
+    background-color: rgb(242, 242, 242);
 }
 
 img {
     width: 100%;
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    box-shadow: rgba(255, 255, 255, 0.15) 0px 2px 8px;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
 }
 
 
@@ -38,28 +40,30 @@ nav {
     padding: .3rem;
     max-width: 90%;
     margin: 0 auto;
-    border-bottom: double;
-    border-top: double;
+    border-bottom: 5px solid rgb(219, 219, 219);
+    border-top:  5px solid rgb(219, 219, 219);
 }
 
 nav ul {
     display: grid;
     row-gap: .1rem;
+    list-style-type: none;
 }
 
 
 nav ul li {
     padding: .5rem 0;
     text-align: center;
-    background-color: #303030;
+    background-color: #67854d;
     margin: 0 .2rem;
-    border: double #808080;
+    border: double #c2c1c1;
+    border-color: #67854d;
 }
 
 a {
     text-decoration: none;
     text-transform: uppercase;
-    font-family: 'Della Respira', serif;
+    font-family: 'Didot', serif;
     color: white;
     display: block;
     letter-spacing: .1rem;
@@ -69,16 +73,17 @@ a {
 /* FONTS  */
 
 h1 {
-    font-family: 'Della Respira', serif;
+    font-family: 'Didot', serif;
     font-weight: 500;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 
 
 h3 {
-    font-family: 'Della Respira', serif;
+    font-family: 'Didot', serif;
     font-weight: 500;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
+    color:#6f984e
 }
 
 
@@ -87,7 +92,7 @@ h3 {
 
 body {
     font-size: .75rem;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Din', sans-serif;
     line-height: 1.5;
     display: grid;
     row-gap: 2.5rem;
@@ -98,7 +103,6 @@ body {
 }
 
 .masthead {
-    background-image: url(../images/free-money.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -150,7 +154,8 @@ body {
     display: grid;
     row-gap: .5rem;
     padding: 1.5rem 0 4rem 0;
-    border-bottom: double #303030;
+    border-bottom:5px solid rgb(219, 219, 219);
+    
 }
 
 .art-card h3 {
@@ -163,13 +168,13 @@ body {
 
 
 .art-card h4 {
-    font-family: 'Della Respira', serif;
+    font-family: 'Didot', serif;
     font-size: 1rem;
     font-weight: 600;
 }
 
 figcaption {
-    font-family: 'Della Respira', serif;
+    font-family: 'Didot', serif;
     font-size: 1rem;
     font-style: italic;
     font-weight: 400;
@@ -179,46 +184,39 @@ figcaption {
 
 footer {
     color: white;
-    background-image: url(../images/free-money.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-color: #303030;
+    background-color: #85af64;
     font-size: 1rem;
 }
 
-footer h4 {
-    font-weight: 900;
-}
-
-.foot-con {
-    padding: 1rem 0;
-    width: 95%;
-    margin: 0 auto;
-
-}
-
-.foot-text h3 {
-    font-family: 'Della Respira', serif;
-    font-size: 1.5rem;
-    color: white;
-}
 
 .icons {
     display: flex;
 }
 
 .icons i {
-    margin: 1rem;
+    margin: 2rem 2rem 2rem 0;
     color: white;
     font-size: 3rem;
+    padding-top: 1rem;
 }
 
 .icons a i:first-child {
     margin-left: 0;
 }
 
-
+.footer section {
+    padding-left: 2rem;
+    font-style: italic;
+    
+}
+.footer h4 {
+    font-size: 1.3rem;
+    font-family: 'Din', serif;
+    font-weight: 250;
+}
 
 /***************************************************
 MEDIA QUERY 920px

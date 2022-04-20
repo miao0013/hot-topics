@@ -2,28 +2,28 @@
 <cards>
 
     <card>
-        <img>img/portfolio-1.png</img>
-        <title>Kathmandu, Nepal</title>
+        <img>img/p1.jpg</img>
+        <title>Website Design - Coffee Shop </title>
     </card>
     <card>
-        <img>img/portfolio-2.png</img>
-        <title>Bali, Indonesia</title>
+        <img>img/p2.jpg</img>
+        <title> UI Design - Book Store </title>
     </card>
     <card>
-          <img>img/portfolio-3.png</img>
-        <title>Kuala Lumpur, Malaysia</title>
+          <img>img/p3.jpg</img>
+        <title>UI Design - Personal Website </title>
     </card>
     <card>
-          <img>img/portfolio-4.png</img>
-        <title>Lisbon, Portugal</title>
+          <img>img/p4.jpg</img>
+        <title> UI Design - Personal Website </title>
     </card>
     <card>
-          <img>img/portfolio-5.png</img>
-        <title>Siem Reap, Myanmar</title>
+          <img>img/p5.jpg</img>
+        <title> UI Design - Care for Children with Autism </title>
     </card>
     <card>
-          <img>img/portfolio-1.png</img>
-        <title>Ottawa, Canada</title>
+          <img>img/p6.jpg</img>
+        <title> Layout Design - Magazine </title>
     </card>
 
 </cards>
